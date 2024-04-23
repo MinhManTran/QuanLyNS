@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -21,6 +22,20 @@ namespace QLNhânSự
         {
             frmDanhsach frmDanhsach = new frmDanhsach();
             frmDanhsach.Show();
+            this.Hide();
+        }
+
+        private void mnuBietphai_Click(object sender, EventArgs e)
+        {
+            frmBietphai frmBietphai = new frmBietphai();
+            frmBietphai.Show();
+            this.Hide();
+        }
+
+        private void mnuCudihoc_Click(object sender, EventArgs e)
+        {
+            frmCudihoc frmCudihoc = new frmCudihoc();
+            frmCudihoc.Show();
             this.Hide();
         }
     }

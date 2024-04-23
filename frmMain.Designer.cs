@@ -150,6 +150,7 @@
             this.mnuBietphai.Name = "mnuBietphai";
             this.mnuBietphai.Size = new System.Drawing.Size(65, 20);
             this.mnuBietphai.Text = "Biệt phái";
+            this.mnuBietphai.Click += new System.EventHandler(this.mnuBietphai_Click);
             // 
             // mnuDaotao
             // 
@@ -164,6 +165,7 @@
             this.mnuCudihoc.Name = "mnuCudihoc";
             this.mnuCudihoc.Size = new System.Drawing.Size(70, 20);
             this.mnuCudihoc.Text = "Cử đi học";
+            this.mnuCudihoc.Click += new System.EventHandler(this.mnuCudihoc_Click);
             // 
             // mnuKhenthuong
             // 

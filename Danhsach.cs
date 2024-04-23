@@ -202,5 +202,14 @@ namespace QLNhânSự
                 MessageBox.Show("Lỗi xóa dữ liệu", "Thông báo");
             }
         }
+
+      
+
+        private void btnBack_Click(object sender, EventArgs e)
+        {
+            frmMain frmMain = new frmMain();
+            frmMain.Show();
+            this.Close();
+        }
     }
 }
